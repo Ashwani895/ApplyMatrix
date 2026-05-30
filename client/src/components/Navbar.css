@@ -1,0 +1,102 @@
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:16px 30px;
+  background:white;
+  border-bottom:1px solid #e5e7eb;
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+/* LEFT */
+
+.navbar-left{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.logo-box{
+  width:38px;
+  height:38px;
+  border-radius:12px;
+  background:#111827;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+  font-size:18px;
+}
+
+.logo-text{
+  font-size:20px;
+  font-weight:700;
+  margin:0;
+}
+
+/* CENTER */
+
+.navbar-center{
+  display:flex;
+  gap:24px;
+}
+
+.nav-link{
+  text-decoration:none;
+  color:#374151;
+  font-weight:500;
+  transition:0.2s;
+}
+
+.nav-link:hover{
+  color:#111827;
+}
+
+/* RIGHT */
+
+.navbar-right{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.nav-btn{
+  border:none;
+  padding:10px 16px;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:500;
+}
+
+.mail-btn{
+  background:#f3f4f6;
+}
+
+.mail-btn:hover{
+  background:#e5e7eb;
+}
+
+.add-btn{
+  background:#111827;
+  color:white;
+}
+
+.add-btn:hover{
+  opacity:0.9;
+}
+
+.profile-circle{
+  width:38px;
+  height:38px;
+  border-radius:50%;
+  background:#dbeafe;
+  color:#1d4ed8;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+  cursor:pointer;
+}

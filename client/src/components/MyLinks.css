@@ -1,0 +1,131 @@
+.my-links-wrapper {
+  margin: 30px 0;
+}
+
+.my-links-btn {
+  background: #111827;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.my-links-btn:hover {
+  opacity: 0.92;
+}
+
+.my-links-panel {
+  margin-top: 18px;
+  background: white;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.my-links-panel h2 {
+  margin-bottom: 8px;
+  color: #111827;
+}
+
+.links-subtext {
+  color: #6b7280;
+  margin-bottom: 18px;
+}
+
+.links-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.links-form input {
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+.links-form input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.add-link-btn {
+  width: fit-content;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.add-link-btn:hover {
+  opacity: 0.92;
+}
+
+.saved-links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.saved-link-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: #f9fafb;
+}
+
+.saved-link-card h3 {
+  margin: 0 0 6px;
+  color: #111827;
+}
+
+.saved-link-card a {
+  color: #2563eb;
+  text-decoration: none;
+  word-break: break-all;
+  font-size: 14px;
+}
+
+.saved-link-card a:hover {
+  text-decoration: underline;
+}
+
+.delete-link-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.delete-link-btn:hover {
+  opacity: 0.92;
+}
+
+.empty-links {
+  color: #6b7280;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .saved-link-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
